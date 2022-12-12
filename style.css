@@ -21,10 +21,14 @@ body {
   display: flex;
   flex-direction: column;
   column-gap: 0.5rem;
+  margin-bottom:10px;
+
 }
 .row-1 label {
   font-family: Lora;
   margin: 2px 2px 2px 2px;
+  
+
 }
 .row-1 .search {
   border: none;
@@ -45,4 +49,15 @@ body {
   font-family: Roboto;
 
   color: white;
+}
+.submit{
+   margin-top:20px;
+    text-align: center;
+    width:max-content;
+    padding:10px;
+    border: none;
+    color:white;
+    margin-left: 30%;
+    border-radius: 5px;
+    background-color: rgb(49, 221, 49);    
 }
