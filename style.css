@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Roboto:wght@400;500&display=swap");
+
+body {
+  font-family: "Roboto", "Lora", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #0abde3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: grid;
+  grid-template-rows: repeat(2, min-content);
+  justify-content: center;
+}
+.row-1 {
+  align-self: end;
+  display: flex;
+  flex-direction: column;
+  column-gap: 0.5rem;
+}
+.row-1 label {
+  font-family: Lora;
+  margin: 2px 2px 2px 2px;
+}
+.row-1 .search {
+  border: none;
+  height: 1.5rem;
+  margin-top: 5px;
+  padding-left: 20px;
+  border-radius: 5rem;
+  outline: none;
+}
+
+.row-2 {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: stretch; */
+  margin-inline: auto;
+}
+.row-2 .head {
+  font-family: Roboto;
+
+  color: white;
+}
